@@ -1,6 +1,15 @@
 <?php
 session_start();
 
+// parametre de securité
+
+// Validation du client 
+// Validation serveur
+// Requete preparées
+// hashage du mdp
+// controle serv parametre GET et POST
+// Déclaration des attributs des objets private
+
 function errorRedirect()
 {
     header('Location: form.php');
